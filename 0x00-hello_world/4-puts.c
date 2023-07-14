@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * This fuction is the entry point of the program
- *
- * Return; 0 on succss, non-zero on failure
- */
+ *  * main - Entry point
+ *   *
+ *    * This function is the entry point of the program. It calls the `puts` function
+ *     * to print a message to the standard output.
+ *      *
+ *       * Return: Always 0 (Success)
+ *        */
 int main(void)
 {
 	/* ... */
