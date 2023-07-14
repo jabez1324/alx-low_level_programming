@@ -11,6 +11,7 @@
 int main(void)
 {
 	char wow[] = "and that piece of art is useful\"";
+
 	fprintf(stderr, "%s - Dora Korpar, 2015-10-19\n", wow);
 	return (0);
 }
