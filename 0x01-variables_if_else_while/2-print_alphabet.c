@@ -10,7 +10,7 @@
 int main(void)
 {
 	char str = 'a';
-	int num = 27;
+	int num = 26;
 
 	for (int i = 0; i < num; i++)
 	{
