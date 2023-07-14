@@ -3,13 +3,12 @@
 /**
  * main - Entry point
  *
- * This function is the entry point program. It initializes any
- * necessary data structures, processes command line arguments, and
- * starts the main program loop.
+ * This function is the entry point program. It calls the `puts` function
+ * to print a message to the standard output.
  *
- * Return: 0 on success, non-zero on failure
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 	return (0);
