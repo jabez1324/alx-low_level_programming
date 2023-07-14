@@ -1,2 +1,2 @@
 #!/bin/bash
-make main
+gcc main.c -o main
