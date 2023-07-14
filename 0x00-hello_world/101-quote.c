@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * This function is the entry point of the program. It initializes any
+ * This function is the entry point program. It initializes any
  * necessary data structures, processes command line arguments, and
  * starts the main program loop.
  *
