@@ -12,7 +12,7 @@ int main(void)
 	char str = 'a';
 	int num = 26;
 
-	for(int i=0; i < 26; i++)
+	for (int i = 0; i < 26; i++)
 	{
 		putchar(str + i);
 	}
