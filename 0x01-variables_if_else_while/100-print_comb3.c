@@ -10,7 +10,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(main)
+int main(void)
 {
 	int i;
 	int j;
