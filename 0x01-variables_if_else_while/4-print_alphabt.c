@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
@@ -25,7 +26,7 @@ int main(void)
 		}
 		putchar(str + i);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
