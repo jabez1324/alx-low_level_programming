@@ -16,9 +16,9 @@ int main(void)
 
 	for (i = 0; i < num; i++)
 	{
-		putchar(str - i)
+		putchar(str - i);
 	}
 	putchar('\n');
 
-	return (0):
+	return (0);
 }
