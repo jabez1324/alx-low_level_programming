@@ -2,6 +2,7 @@
 
 /**
  * main - Entry point
+ * Description: This functionis the entry point for the program
  *
  * This function is the entry point program. It calls the puts function
  * to print a message to the standard output.

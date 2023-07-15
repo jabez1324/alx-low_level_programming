@@ -3,27 +3,31 @@
 /**
  * main - Entry point
  *
+ * Description: This function is the entry point for the program
+ *
  * This function is the entry point program. It calls the puts function
  * to print a message to the standard output.
  *
  * Return: Always 0 (Success)
  */
-int main() 
+int main(main)
 {
-	int i, j;
+	int i;
+	int j;
 
-	for (i = 0; i < 9; i++) 
+	for (i = 0; i < 9; i++)
 	{
-		for (j = i + 1; j <= 9; j++) 
+		for (j = 1; j < 10; j++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i != 8 || j != 9) 
-	           	{
+			putchar('0' + i);
+			putchar('0' + j);
+			if (i != 8 || j != 9)
+			{
 				putchar(',');
-				putchar(' ');							            }
-		}		    
+				putchar(' ');
+			}
+		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
