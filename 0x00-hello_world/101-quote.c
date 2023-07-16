@@ -10,6 +10,8 @@
  */
 int main(void)
 {
-	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	char *wow = "and that piece of art is useful\"";
+
+	fprintf(stderr, "%s - Dora Korpar, 2015-10-19\n", wow);
 	return (1);
 }
