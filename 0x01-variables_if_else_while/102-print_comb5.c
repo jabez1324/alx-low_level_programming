@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * This function is the entry point program. It calls the puts function
+ * to print a message to the standard output.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
@@ -13,6 +21,7 @@ int main(void)
 			int i2 = i % 10;
 			int j1 = j / 10;
 			int j2 = j % 10;
+
 			putchar('0' + i1);
 			putchar('0' + i2);
 			putchar(' ');
@@ -24,8 +33,8 @@ int main(void)
 				putchar(' ');
 			}
 		}
-	}	
-	putchar('\n');	
+	}
+	putchar('\n');
 
 	return (0);
 }
