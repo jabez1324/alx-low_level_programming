@@ -1,24 +1,14 @@
-#include <stdio.h>
-#include "mian.h"
-/**
- * main - Entry point
- *
- * This function is the entry point program. It calls the puts function
- * to print a message to the standard output.
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+#include <unistd.h>
 
-	return (0);
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar()
+{
+	const char* message = "_putchar\n";
+	write(STDOUT_FILENO, message, sizeof(message));
 }
