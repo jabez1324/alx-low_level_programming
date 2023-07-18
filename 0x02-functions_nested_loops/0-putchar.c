@@ -11,5 +11,5 @@ int _putchar()
 {
 	const char* message = "_putchar\n";
 
-	write(STDOUT_FILENO, message, sizeof(message));
+	return (write(STDOUT_FILENO, message, sizeof(message)));
 }
