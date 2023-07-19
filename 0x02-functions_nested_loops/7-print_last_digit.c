@@ -15,7 +15,9 @@
 
 int print_last_digit(int i)
 {
-	int wow = abs(i) % 10;
+	int ow = i;
+	int wo = abs(i) % 10;
+	int wow = 'wo' + 'ow'
 
 	return (wow);
 }
