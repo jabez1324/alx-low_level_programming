@@ -1,13 +1,15 @@
 #include "main.h"
 
-/**print_sign - Entry point
+/**
+ * print_sign - prints the sign of a number
  *
- * @n: the character to check
+ * @n: the int to check
  *
- * This function is the entry point program. It calls the puts function
- * to print a message to the standard output.
+ * Return: 1 and prints + if n is greater than zero
  *
- * Return: Always 0 (Success)
+ * 0 and prints 0 if n is zero
+ *
+ * -1 and prints - if n is less than zero
  */
 int print_sign(int n)
 {
