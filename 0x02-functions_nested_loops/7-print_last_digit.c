@@ -1,12 +1,10 @@
-#include <limits.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
- * _isalpha - Prints the lowercase letters of the alphabet
- * @c: the character to check
+ * print_last_digit - Prints the lowercase letters of the alphabet
+ *
+ * @i: the character to check
+ *
  * Description: This function prints the lowercase letters of the alphabet
  * to the console, separated by spaces.
  *
@@ -15,7 +13,17 @@
 
 int print_last_digit(int i)
 {
-	int wow = i % 10;
+	int a;
 
-	return (wow);
+	if (n < 0)
+		n = -n;
+
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
