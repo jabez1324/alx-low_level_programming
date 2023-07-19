@@ -20,23 +20,18 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		struct Result r;
-		r.num = 1;
-		r.opr = '+';
-		return r;
+		_putchar('+');
+		return 1;
 	}                             
 	else if (n == 0)                
 	{
-		struct Result s;
-		s.num = 0;
-		s.opr = '0';
-		return s;                                                             
+		_putchar('0');
+		return 0;                                                             
 	}
 	else if(n < 0)                        
-	{ 
-	       struct Result t;	
-		t.num = -1;
-		t.opr = '-';
-		return t;
+	{
+		_putchar('-');
+		_putchar('1');
+		return 1;
 	}
 }
