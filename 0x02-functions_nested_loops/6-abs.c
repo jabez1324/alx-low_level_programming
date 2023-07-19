@@ -1,9 +1,7 @@
 #include <stdlib.h>
 #include "main.h"
 
-int _abs(int)
+int _abs(int i)
 {
-	int i;
-
-	abs(i);
+	return abs(i);
 }
