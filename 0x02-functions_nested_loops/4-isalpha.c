@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _islower - Prints the lowercase letters of the alphabet
+ * _isalpha - Prints the lowercase letters of the alphabet
  * @c: the character to check
  * Description: This function prints the lowercase letters of the alphabet
  * to the console, separated by spaces.
