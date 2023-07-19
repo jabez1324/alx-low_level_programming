@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Entry point
  *
  * This function is the entry point program. It calls the puts function
  * to print a message to the standard output.
