@@ -12,10 +12,8 @@
  * Return: Always 0 (Success)
  */
 
-void print_sign(void)
+int print_sign(int n)
 {
-	int n;
-
 	if (n > 0)
 	{
 		write(1, "+", 1);
