@@ -11,6 +11,11 @@
  * Return: Always 0 (Success)
  */
 
+struct Result
+{
+	int num;
+	char opr;
+}
 int print_sign(int n)
 {
 	if (n > 0)
@@ -24,7 +29,7 @@ int print_sign(int n)
 	{
 		struct Result s;
 		s.num = 0;
-		s.opr = 0;
+		s.opr = '0';
 		return s;                                                             
 	}
 	else if(n < 0)                        
