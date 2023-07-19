@@ -10,7 +10,7 @@
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
@@ -19,4 +19,10 @@ int main(void)
 		_putchar('a' + i);
 	}
 	_putchar('\n');
+}
+
+int main(void)
+{
+	print_alphabet()
+	return (0);
 }
