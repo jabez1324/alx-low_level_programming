@@ -14,18 +14,21 @@
 int print_sign(int n)
 {
 	if (n > 0)
-	{                              
-		return (1);                                                                
-		return (_putchar('+'));                                          
-	}                                                                         
+	{
+		r.num = 1;
+		r.opr = '+';
+		return r;
+	}                             
 	else if (n == 0)                
 	{                                                                             
-		return (0);
-		return (_putchar('0'));                                                             
+		s.num = 0;
+		s.opr = 0;
+		return s;                                                             
 	}
 	else if(n < 0)                        
 	{  
-		return (-1);
-		return (_putchar('-'));
+		t.num = -1;
+		t.opr = '-';
+		return t;
 	}
 }
