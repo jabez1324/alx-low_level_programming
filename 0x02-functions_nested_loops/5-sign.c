@@ -16,7 +16,7 @@ int print_sign(int n)
 	if (n > 0)
 	{                              
 		return (1);                                                                
-		return (putchar('+'));                                          
+		return (_putchar('+'));                                          
 	}                                                                         
 	else if (n == 0)                
 	{                                                                             
