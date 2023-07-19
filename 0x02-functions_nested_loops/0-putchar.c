@@ -2,14 +2,14 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * main - Entry point
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * This function is the entry point program. It calls the puts function
+ * to print a message to the standard output.
+ *
+ * Return: Always 0 (Success)
  */
-
-int main()
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
@@ -19,6 +19,7 @@ int main()
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
