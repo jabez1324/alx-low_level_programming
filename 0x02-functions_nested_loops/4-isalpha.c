@@ -1,6 +1,6 @@
 #include <unistd.h>
 #include <ctype.h>
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * _islower - Prints the lowercase letters of the alphabet
