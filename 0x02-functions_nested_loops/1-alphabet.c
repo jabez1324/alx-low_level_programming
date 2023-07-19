@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * This function is the entry point program. It calls the puts function
  * to print a message to the standard output.
@@ -15,8 +15,8 @@ void print_alphabet(void)
 	int i;
 
 	for (i = 0; i < 26; i++)
-        {
-		 _putchar('a' + i);
+	{
+		_putchar('a' + i);
 	}
 	_putchar('\n');
 }
