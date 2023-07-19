@@ -15,18 +15,21 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
+		struct Result r;
 		r.num = 1;
 		r.opr = '+';
 		return r;
 	}                             
 	else if (n == 0)                
-	{                                                                             
+	{
+		struct Result s;
 		s.num = 0;
 		s.opr = 0;
 		return s;                                                             
 	}
 	else if(n < 0)                        
-	{  
+	{ 
+	       struct Result t;	
 		t.num = -1;
 		t.opr = '-';
 		return t;
