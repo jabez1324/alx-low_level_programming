@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -13,5 +14,7 @@
 
 int print_last_digit(int i)
 {
-	return (i % 10);
+	int wow = abs(i) % 10;
+
+	return (wow);
 }
