@@ -1,5 +1,4 @@
-#include <stdio.h>
-#inlcude "main.h"
+#include "main.h"
 
 /**
  * _isalpha - Prints the lowercase letters of the alphabet
