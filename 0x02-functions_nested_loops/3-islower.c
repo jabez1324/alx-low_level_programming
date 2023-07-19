@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the lowercase letters of the alphabet
- *
+ * _islower - Prints the lowercase letters of the alphabet
+ * @c: the character to check
  * Description: This function prints the lowercase letters of the alphabet
  * to the console, separated by spaces.
  *
@@ -15,10 +15,10 @@ int _islower(int c)
 {
 	if (islower(c))
 	{
-		return 1;
+		return (1);
 	}
 	else
 	{
-		return 0;
+		return (0);
 	}
 }
