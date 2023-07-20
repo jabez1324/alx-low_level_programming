@@ -20,7 +20,7 @@ int largest_number(int a, int b, int c)
 	{
 		result = b;
 	}
-	else if (c > a && c > b)
+	else
 	{
 		result = c;
 	}
